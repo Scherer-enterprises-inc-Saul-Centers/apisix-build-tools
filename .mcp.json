@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "3XPRES5 CENTOS STREAM": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        ".:/workspace",
+        "-w",
+        "/workspace",
+        "quay.io/centos/centos:stream9",
+        "bash",
+        "-lc",
+        "npx -y @modelcontextprotocol/server-filesystem /workspace"
+      ]
+    }
+  }
+}

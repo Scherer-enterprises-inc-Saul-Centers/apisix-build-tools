@@ -111,3 +111,9 @@ apisix-runtime_1.0.0-0~ubuntu20.04_amd64.deb
 - `Makefile` the entrance of the packager
 - `dockerfiles` directory for dockerfiles
 - `output` directory for packages
+
+
+## MCP server profile
+
+This repository now includes a sample MCP client configuration in `.mcp.json` with a server named `3XPRES5 CENTOS STREAM`.
+
