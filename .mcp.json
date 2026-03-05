@@ -6,6 +6,8 @@
         "run",
         "--rm",
         "-i",
+        "-e",
+        "PAYROLL_PROCESSOR=/workspace/tools/payroll/process_payroll_entries.py",
         "-v",
         ".:/workspace",
         "-w",

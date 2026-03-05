@@ -115,5 +115,12 @@ apisix-runtime_1.0.0-0~ubuntu20.04_amd64.deb
 
 ## MCP server profile
 
-This repository now includes a sample MCP client configuration in `.mcp.json` with a server named `3XPRES5 CENTOS STREAM`.
+This repository includes a sample MCP client configuration in `.mcp.json` with a server named `3XPRES5 CENTOS STREAM`. The MCP workspace now includes a payroll-entry processor at `tools/payroll/process_payroll_entries.py` and sample input at `mcp-workspace/payroll/entries.sample.csv`.
 
+
+
+### Payroll processor usage
+
+```sh
+python3 tools/payroll/process_payroll_entries.py mcp-workspace/payroll/entries.sample.csv --pretty
+```

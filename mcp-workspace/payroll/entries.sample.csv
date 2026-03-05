@@ -1,0 +1,5 @@
+employee_id,hours,hourly_rate,tax_rate
+E001,8,25,0.10
+E001,4,25,0.10
+E002,7.5,30,0.12
+E003,6,40,0.08
